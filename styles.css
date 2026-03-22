@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  background: #f0f2f5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: linear-gradient(45deg, #007bff, #6610f2);
+  color: white;
+}
+
+nav a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');}
+
+.hero button {
+  padding: 10px 20px;
+  background: #ffc107;
+  border: none;
+  cursor: pointer;
+}
+
+.section-title {
+  text-align: center;
+}
+
+#search {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 250px;
+}
+
+.course-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.form {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
